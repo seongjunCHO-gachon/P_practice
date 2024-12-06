@@ -20,6 +20,7 @@
     <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
     <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEADIA_VIDEO" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
     <!--
  Required to query activities that can process text, see:

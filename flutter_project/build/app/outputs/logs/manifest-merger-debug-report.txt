@@ -55,45 +55,44 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\us
 MERGED from [androidx.window.extensions.core:core:1.0.0] C:\Users\user\.gradle\caches\8.9\transforms\d9e0425121cfa91f8503adec7bbe4a21\transformed\jetified-core-1.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\user\.gradle\caches\8.9\transforms\63570c16c4037a8e6e577ffd9599ec8c\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:3:5-42
+		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:2:5-42
 		INJECTED from D:\flutter_project\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\flutter_project\android\app\src\debug\AndroidManifest.xml
-	xmlns:tools
-		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:2:5-51
-		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:2:5-51
 	android:versionCode
 		INJECTED from D:\flutter_project\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:4:5-80
+ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:3:5-80
 MERGED from [:file_picker] D:\flutter_project\build\file_picker\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-9:38
 MERGED from [:file_picker] D:\flutter_project\build\file_picker\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-9:38
 	android:maxSdkVersion
 		ADDED from [:file_picker] D:\flutter_project\build\file_picker\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-35
 	android:name
-		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:4:22-77
+		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:3:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:5:5-81
+ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:4:5-81
 	android:name
-		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:4:22-78
 uses-permission#android.permission.ACCESS_MEDIA_LOCATION
-ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:6:5-80
+ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:6:22-77
+		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:5:22-77
 uses-permission#android.permission.READ_MEDIA_VISUAL_USER_SELECTED
-ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:7:5-90
+ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:6:5-90
 	android:name
-		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:7:22-87
+		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:6:22-87
 uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.READ_MEADIA_VIDEO
 ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:8:5-76
 	android:name
 		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:8:22-73
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:9:5-111
-	tools:ignore
-		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:9:80-108
+ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
 		ADDED from D:\flutter_project\android\app\src\main\AndroidManifest.xml:9:22-79
 queries
