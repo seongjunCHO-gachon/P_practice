@@ -1,11 +1,8 @@
 import 'dart:io';
 import 'package:http/http.dart' as http;
+import 'config.dart';
 
 class UploadService {
-  final String serverEndpoint;
-
-  UploadService(this.serverEndpoint);
-
   Future<void> uploadPhotosFromFolder(String folderPath, String uid) async {
     final directory = Directory(folderPath);
 
@@ -41,15 +38,15 @@ class UploadService {
       request.files.add(await http.MultipartFile.fromPath('file', photo.path));
 
       final response = await request.send();
-      final responseBody = await response.stream
-          .bytesToString(); // 서버 응답 메시지 읽기
+
+
 
       if (response.statusCode == 200) {
         print('업로드 성공: ${photo.path}');
-        print('서버 응답: $responseBody');
       } else {
+        final errorBody = await response.stream.bytesToString();
         print('업로드 실패: ${response.statusCode}');
-        print('서버 응답: $responseBody');
+        print('서버 응답: $errorBody');
       }
     } catch (e) {
       print('업로드 중 오류 발생: $e');

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.flutter_project.app-mergeDebugResources-24:/values/values.xml",
+            "outputFile": "com.example.flutter_project.app-mergeDebugResources-26:/values/values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\3446cbf3815904065e556a043d368631\\transformed\\jetified-activity-1.8.1\\res\\values\\values.xml",
@@ -93,25 +93,6 @@
                     }
                 },
                 {
-                    "source": "D:\\flutter_project\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "155,159",
-                        "startColumns": "4,4",
-                        "startOffsets": "7894,8075",
-                        "endLines": "158,161",
-                        "endColumns": "12,12",
-                        "endOffsets": "8070,8239"
-                    }
-                },
-                {
                     "source": "C:\\Users\\user\\.gradle\\caches\\8.9\\transforms\\35c43bb50b21f5b5cd608870ad887e07\\transformed\\lifecycle-viewmodel-2.7.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -162,6 +143,25 @@
                         "startOffsets": "6888",
                         "endColumns": "42",
                         "endOffsets": "6926"
+                    }
+                },
+                {
+                    "source": "D:\\PCfile\\flutter_project\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "155,159",
+                        "startColumns": "4,4",
+                        "startOffsets": "7894,8075",
+                        "endLines": "158,161",
+                        "endColumns": "12,12",
+                        "endOffsets": "8070,8239"
                     }
                 }
             ]

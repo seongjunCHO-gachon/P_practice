@@ -1,0 +1,1 @@
+const String serverEndpoint = 'http://ec2-user@3.34.136.235:5000';
