@@ -46,3 +46,19 @@ Future<String> signUpUser(String id, String password) async {
     return 'error';
   }
 }
+
+Future<List<Map<String, dynamic>>> searchPhotos(String query) async {
+  final url = Uri.parse('$serverEndpoint/search?query=$query');
+  final response = await http.get(url);
+
+  if (response.statusCode == 200) {
+    final data = jsonDecode(response.body);
+    if (data['status'] == 'success') {
+      return List<Map<String, dynamic>>.from(data['data']);
+    } else {
+      return [];
+    }
+  } else {
+    throw Exception('Failed to search photos: ${response.body}');
+  }
+}

@@ -2,9 +2,10 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'loginScreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'loginScreen.dart';
 import 'upload.dart';
+import 'api_service.dart';
 
 class PhotoGalleryPage extends StatefulWidget {
   const PhotoGalleryPage({super.key});
@@ -75,11 +76,22 @@ class _PhotoGalleryPageState extends State<PhotoGalleryPage> {
     }).toList();
   }
 
-  void _updateSearchQuery(String query) {
+  void _updateSearchQuery(String query) async {
     setState(() {
       _searchQuery = query;
-      _filteredPhotos = _applySearchFilter(_photos, _searchQuery);
     });
+    try {
+      final searchResults = await searchPhotos(query);
+      setState(() {
+        _filteredPhotos = searchResults.map((item) {
+          return File(item['photo_path']);
+        }).toList();
+      });
+    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('검색 중 오류 발생: $e')),
+      );
+    }
   }
 
   void _sortPhotos({required bool ascending}) {
