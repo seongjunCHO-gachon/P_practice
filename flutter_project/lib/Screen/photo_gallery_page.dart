@@ -53,7 +53,7 @@ class _PhotoGalleryPageState extends State<PhotoGalleryPage> {
 
       setState(() {
         _photos = photos;
-        _filteredPhotos = _applySearchFilter(_photos, _searchQuery);
+        _filteredPhotos = _photos;
         selectedFolderPath = directoryPath;
       });
     }
