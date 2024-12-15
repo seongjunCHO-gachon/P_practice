@@ -7,10 +7,8 @@ class UploadService {
     final directory = Directory(folderPath);
 
     if (!directory.existsSync()) {
-      print("폴더가 존재하지 않습니다.");
       return;
     }
-
     final files = directory.listSync().where((file) {
       final extension = file.path
           .split('.')
