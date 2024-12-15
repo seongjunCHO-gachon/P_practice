@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:11:5-43:19
+INJECTED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:11:5-42:19
 INJECTED from D:\PCfile\flutter_project\android\app\src\debug\AndroidManifest.xml
 MERGED from [androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\8.9\transforms\4283940852ff7fd50a02ea052e688802\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\user\.gradle\caches\8.9\transforms\4283940852ff7fd50a02ea052e688802\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
@@ -21,8 +21,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\us
 	android:name
 		INJECTED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:1:1-55:12
-MERGED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:1:1-55:12
+ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:1:1-54:12
+MERGED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:1:1-54:12
 INJECTED from D:\PCfile\flutter_project\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from D:\PCfile\flutter_project\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from D:\PCfile\flutter_project\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -99,19 +99,19 @@ ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:9:
 	android:name
 		ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:9:22-79
 queries
-ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:49:5-54:15
+ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:48:5-53:15
 MERGED from [:file_picker] D:\PCfile\flutter_project\build\file_picker\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:5-17:15
 MERGED from [:file_picker] D:\PCfile\flutter_project\build\file_picker\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:5-17:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:50:9-53:18
+ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:49:9-52:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:51:13-72
+ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:50:13-72
 	android:name
-		ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:51:21-70
+		ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:50:21-70
 data
-ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:52:13-50
+ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:51:13-50
 	android:mimeType
-		ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:52:19-48
+		ADDED from D:\PCfile\flutter_project\android\app\src\main\AndroidManifest.xml:51:19-48
 uses-permission#android.permission.INTERNET
 ADDED from D:\PCfile\flutter_project\android\app\src\debug\AndroidManifest.xml:6:5-66
 	android:name
